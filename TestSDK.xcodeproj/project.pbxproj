@@ -11,6 +11,7 @@
 		027C62F128C6AAB700AA9784 /* TestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027C62F028C6AAB700AA9784 /* TestApi.swift */; };
 		027C62F228C6B19700AA9784 /* Pods_TestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F564E93BA850C267F74F004 /* Pods_TestSDK.framework */; };
 		027C62F328C6B19700AA9784 /* Pods_TestSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F564E93BA850C267F74F004 /* Pods_TestSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		027C631D28C6BF8200AA9784 /* TestSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 027C631C28C6BF8200AA9784 /* TestSDK.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		027C62E628C6AAA500AA9784 /* TestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		027C62E928C6AAA500AA9784 /* TestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSDK.h; sourceTree = "<group>"; };
 		027C62F028C6AAB700AA9784 /* TestApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApi.swift; sourceTree = "<group>"; };
+		027C631C28C6BF8200AA9784 /* TestSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestSDK.podspec; sourceTree = "<group>"; };
 		4F49350D698F4BB380CE8C11 /* Pods-TestSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDK.release.xcconfig"; path = "Target Support Files/Pods-TestSDK/Pods-TestSDK.release.xcconfig"; sourceTree = "<group>"; };
 		4F564E93BA850C267F74F004 /* Pods_TestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39D615A88C483209C726385 /* Pods-TestSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDK.debug.xcconfig"; path = "Target Support Files/Pods-TestSDK/Pods-TestSDK.debug.xcconfig"; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		027C62DC28C6AAA400AA9784 = {
 			isa = PBXGroup;
 			children = (
+				027C631C28C6BF8200AA9784 /* TestSDK.podspec */,
 				027C62E828C6AAA500AA9784 /* TestSDK */,
 				027C62E728C6AAA500AA9784 /* Products */,
 				D810F9800A175CA37A4CFBF6 /* Pods */,
@@ -164,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				027C631D28C6BF8200AA9784 /* TestSDK.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
