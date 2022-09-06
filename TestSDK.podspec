@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
    spec.platform     = :ios
    spec.platform     = :ios, "15.0"
 
-  spec.source       = { :git => "https://github.com/mobilethinks/TestSDK.git", :tag => "#{1.0.0}" }
+  spec.source       = { :git => "https://github.com/mobilethinks/TestSDK.git", :tag => "#{1.0.3}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
